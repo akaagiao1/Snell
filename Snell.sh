@@ -45,7 +45,7 @@ install_snell() {
     apt update && apt install -y wget unzip
 
     # 下载 Snell 服务器文件
-    SNELL_VERSION="v4.0.1"
+    SNELL_VERSION="v4.1.0rc1"
     ARCH=$(arch)
     SNELL_URL=""
     INSTALL_DIR="/usr/local/bin"
