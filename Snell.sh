@@ -130,7 +130,7 @@ EOF
     fi
 
     # 启动 Snell 服务
-    systemctl start snell
+    systemctl restart snell
     if [ $? -ne 0 ]; then
         echo -e "${RED}启动 Snell 服务失败。${RESET}"
         exit 1
