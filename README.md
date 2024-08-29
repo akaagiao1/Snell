@@ -21,3 +21,7 @@ curl -sS -o Snell.sh https://raw.githubusercontent.com/akaagiao1/Snell/main/Snel
 - 执行完脚本后，你会得到服务器的 IP 地址、端口号、PSK 等相关信息。
 
 
+### 配置文件位置
+```
+/etc/snell/snell-server.conf
+```
